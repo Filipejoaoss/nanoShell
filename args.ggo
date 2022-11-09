@@ -1,0 +1,16 @@
+package "nanoShell"
+version "1.0"
+purpose ""
+description "Filipe João Seiça Sousa - 2191168\nIsac Silva Amado - 2191908\n"
+
+#----------------------------
+# independent options
+#----------------------------
+# Mandatory option
+#
+# NOTE: support for this file needs to be enabled in 'makefile'
+#
+
+option "signalfile" s "Output information about the signals the nanoShel can receive"  no
+option "max" m "Chose a maximum of executions the nanoShell can make" int no 
+option "file" f "Run commands from the chosen file, each line is a command lines started by #, or empty lines are ignored" string no
